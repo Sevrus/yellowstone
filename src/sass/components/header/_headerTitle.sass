@@ -1,0 +1,15 @@
+@import "../../utilities/_mixins"
+@import "../../utilities/_variables"
+
+.header-title
+  width: 50%
+  height: 100%
+  @include flex(row, center, center)
+  background-color: $black
+  gap: 11px
+  border-bottom: 3px solid $red
+
+  h1
+    font-family: "Chinese Rocks Rg"
+    font-size: $fs-48
+    color: $white
